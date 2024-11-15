@@ -1,0 +1,10 @@
+/* File: Teachers.css */
+
+.teachers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #f7b731;
+    border-radius: 10px;
+   
+}  

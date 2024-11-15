@@ -1,0 +1,62 @@
+/* File: Login.css */
+
+.login-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #f7b731;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #00507d;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 24px;
+    }
+  
+    .input-group input {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+/* Home.css */
+
+.home-background {
+    background-color: #f7b731;
+    padding: 0;
+  }
+  
+  .hero-section {
+    background-color: #003366;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  button {
+    background-color: #f7b731;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .card-title {
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
+  

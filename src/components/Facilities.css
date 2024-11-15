@@ -1,0 +1,82 @@
+/* File: Facilities.css */
+
+/* Container dengan warna latar belakang solid */
+.facilities-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #f7b731; /* Warna latar belakang kuning cerah */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Judul */
+  .title {
+    text-align: center;
+    font-size: 36px;
+    color: #003366; /* Biru gelap untuk teks */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Deskripsi */
+  .description {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  /* Fasilitas dengan gambar latar belakang */
+  .facility-item {
+    background-color: #fff; /* Latar belakang putih untuk item */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+  }
+  
+  .facility-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facility-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Teks dalam fasilitas */
+  .facility-item h4 {
+    font-size: 22px;
+    color: #003366; /* Biru gelap untuk teks */
+    margin-bottom: 10px;
+  }
+  
+  .facility-item p {
+    font-size: 16px;
+    color: #555; /* Teks abu-abu gelap */
+    line-height: 1.5;
+  }
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 30px;
+    }
+  
+    .facility-item h4 {
+      font-size: 18px;
+    }
+  
+    .facility-item p {
+      font-size: 14px;
+    }
+  }
+  
